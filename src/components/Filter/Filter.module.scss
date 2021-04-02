@@ -1,0 +1,23 @@
+.Filter {
+  display: inline-flex;
+  flex-direction: column;
+  width: 350px;
+  // padding: 10px;
+  input {
+    padding: 5px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #2a2a2a;
+    font-style: italic;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+  &__label {
+  }
+  &__input {
+  }
+}
